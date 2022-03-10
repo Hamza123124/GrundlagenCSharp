@@ -6,41 +6,18 @@ namespace GrundlagenCSharp
     {
         static void Main(string[] args)
         {
-            double p = 0, k = 0, n = 0, kn = 0, z = 0, kz = 0, b = 0;
-            Console.WriteLine("Geben sie ihren Zinnssatz ein :");
-            p = Convert.ToDouble(Console.ReadLine());
+            double L = 0;
 
+            Console.WriteLine("geben sie ihre länge ein");
+            L = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 ");
 
-            Console.WriteLine("Geben sie ihr Kapital ein :");
-            k = Convert.ToDouble(Console.ReadLine());
-            kn = k;
+            Console.WriteLine($"  {"M e t e r",6}       {"W  i  d  e  r  s  t  a  n  d",18}");
 
+            Console.ReadLine();
 
-            Console.WriteLine("Geben sie ihre Anlagedauer an :");
-            n = Convert.ToDouble(Console.ReadLine());
-
-
-
-
-            Console.WriteLine($"{"Jahr",4} {"Guthaben",10} {"Zinsen",8} {"K.Zinsen",10} {"Bilanz",8}");
-            Console.WriteLine("-------------------------------------------");
-
-
-
-            for (double i = 1; i <= n; i++)
-            {
-                z = kn * (p / 100);
-                kz = kz + z;
-                b = k + kz;
-                Console.WriteLine($"{i,4} {kn,10:F} {z,8:F} {kz,10:F} {b,8:F}");
-                kn = kn + z;
-
-            }
-
-
-
-
+            for (double i = 1)
 
         }
     }
