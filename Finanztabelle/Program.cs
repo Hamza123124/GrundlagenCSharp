@@ -10,16 +10,16 @@ namespace Finanztabelle
             Console.WriteLine("Geben sie ihren Zinnssatz ein :");
             p = Convert.ToDouble(Console.ReadLine());
 
-
+            
 
             Console.WriteLine("Geben sie ihr Kapital ein :");
             k = Convert.ToDouble(Console.ReadLine());
             kn = k;
 
 
+
             Console.WriteLine("Geben sie ihre Anlagedauer an :");
             n = Convert.ToDouble(Console.ReadLine());
-
 
 
 
@@ -37,7 +37,6 @@ namespace Finanztabelle
                 kn = kn + z;
 
             }
-
         }
     }
 }

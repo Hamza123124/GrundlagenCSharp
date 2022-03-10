@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundlagenCSharp", "GrundlagenCSharp\GrundlagenCSharp.csproj", "{9359EC4F-56D7-41FD-B90B-9553524B3BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrundlagenCSharp", "GrundlagenCSharp\GrundlagenCSharp.csproj", "{9359EC4F-56D7-41FD-B90B-9553524B3BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanztabelle", "Finanztabelle\Finanztabelle.csproj", "{BAC86730-AC35-45E6-A603-C8BEE031AB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanztabelle", "Finanztabelle\Finanztabelle.csproj", "{BAC86730-AC35-45E6-A603-C8BEE031AB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Noten", "Array_Noten\Array_Noten.csproj", "{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BAC86730-AC35-45E6-A603-C8BEE031AB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC86730-AC35-45E6-A603-C8BEE031AB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC86730-AC35-45E6-A603-C8BEE031AB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
