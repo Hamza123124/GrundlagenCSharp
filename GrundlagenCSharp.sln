@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanztabelle", "Finanztabe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array_Noten", "Array_Noten\Array_Noten.csproj", "{DE3C9807-5A84-4A6F-8056-A6E5B1D121E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden Implementieren", "Methoden Implementieren\Methoden Implementieren.csproj", "{79C8C054-7A24-43F7-BD68-94DB96A8ED51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methoden Implementieren", "Methoden Implementieren\Methoden Implementieren.csproj", "{79C8C054-7A24-43F7-BD68-94DB96A8ED51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotelgästeplan", "Hotelgästeplan\Hotelgästeplan.csproj", "{24B90E29-F95E-45D4-93D7-442122B9999D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{79C8C054-7A24-43F7-BD68-94DB96A8ED51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C8C054-7A24-43F7-BD68-94DB96A8ED51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C8C054-7A24-43F7-BD68-94DB96A8ED51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B90E29-F95E-45D4-93D7-442122B9999D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B90E29-F95E-45D4-93D7-442122B9999D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B90E29-F95E-45D4-93D7-442122B9999D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B90E29-F95E-45D4-93D7-442122B9999D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
